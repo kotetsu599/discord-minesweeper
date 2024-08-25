@@ -87,8 +87,7 @@ while True:
                             check_pos = mas-5
                             if masu[check_pos]=="爆":
                                 masu[mas]+=1
-                
-                #計算で求まる場合...
+
                 elif mas in [1,2,3]: #list1
                     masu[mas]=0
                     for _ in range(5):
